@@ -77,7 +77,7 @@ int calcJ(list set, int size ){
 		//printf("%d,\n", set->num);
 		set = set->next;
   	}
-  	printf("} ) = %d\n", J);
+  	printf("} ) = %d\n", result);
   	
   	return result;
 }
