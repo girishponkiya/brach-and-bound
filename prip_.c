@@ -71,10 +71,13 @@ int calcJ(list set, int size ){
   	
   	int result = 0;
   	
+  	//printf("J( {");
   	while( set != NULL ){
 		result += set->num;
+		//printf("%d,\n", set->num);
 		set = set->next;
   	}
+  	printf("} ) = %d\n", J);
   	
   	return result;
 }
